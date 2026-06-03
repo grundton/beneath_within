@@ -1,0 +1,9 @@
+#N canvas 864 38 864 511 12;
+#X obj 78 153 dac~ 1;
+#X obj 78 76 nn~ -g ../m/Beneath_Within_AlexTenorEtu_v0_best1M_fid_0.999_streaming decode;
+#X obj 78 52 adc~ 1 2 3 4, f 60;
+#X connect 1 0 0 0;
+#X connect 2 0 1 0;
+#X connect 2 1 1 1;
+#X connect 2 2 1 2;
+#X connect 2 3 1 3;

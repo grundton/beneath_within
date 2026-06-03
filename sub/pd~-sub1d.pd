@@ -1,0 +1,13 @@
+#N canvas 201 515 589 206 12;
+#X obj 78 52 adc~ 1 2 3 4 5 6 7 8, f 60;
+#X obj 78 101 nn~ -g ../m/Beneath_Within_CedrikGong_v0_bes500k_fid_0.999_streaming_z8 decode;
+#X obj 78 153 dac~ 1;
+#X connect 0 0 1 0;
+#X connect 0 1 1 1;
+#X connect 0 2 1 2;
+#X connect 0 3 1 3;
+#X connect 0 4 1 4;
+#X connect 0 5 1 5;
+#X connect 0 6 1 6;
+#X connect 0 7 1 7;
+#X connect 1 0 2 0;
