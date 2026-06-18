@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/1258335814.svg)](https://doi.org/10.5281/zenodo.20745386)
 # beneath_within
 
 This repository contains the Pure Data patch for the piece "Beneath, Within", which was premiered in KUL in 2025.
